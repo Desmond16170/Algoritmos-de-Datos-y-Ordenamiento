@@ -8,7 +8,6 @@ using namespace std;
 #define MENU_HPP
 #include <vector>
 
-
 void menu1(){
 
     int opcion;
