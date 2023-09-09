@@ -25,21 +25,21 @@ void menu2() {
     char opcion;
     do {
         std::cout << "Opciones:\n";
-        std::cout << "a. Mostrar todas las definiciones almacenadas.\n";
-        std::cout << "b. Hacer una pregunta.\n";
-        std::cout << "c. Extender información.\n";
-        std::cout << "d. Salir.\n";
+        std::cout << "1) Mostrar todas las definiciones almacenadas.\n";
+        std::cout << "2) Hacer una pregunta.\n";
+        std::cout << "3) Extender información.\n";
+        std::cout << "0) Salir.\n";
         std::cout << "Seleccione una opción: ";
         std::cin >> opcion;
 
         switch (opcion) {
-            case 'a':
+            case '1':
                 // Mostrar todas las definiciones almacenadas
                 for (const auto& definicion : baseDeDatos) {
                     std::cout << definicion.pregunta << ": " << definicion.respuesta << std::endl;
                 }
                 break;
-            case 'b':
+            case '2':
                 // Hacer una pregunta
                 std::cout << "Ingrese una pregunta o palabra clave: ";
                 
@@ -54,11 +54,11 @@ void menu2() {
                     }
                 }
                 break;
-            case 'c':
+            case '3':
                 // Extender información (puedes implementarlo según tus necesidades)
                 std::cout << "Función de extender información..." << std::endl;
                 break;
-            case 'd':
+            case '0':
                 // Salir del programa
                 std::cout << "Saliendo del programa." << std::endl;
                 break;
@@ -66,7 +66,7 @@ void menu2() {
                 std::cout << "Opción no válida. Intente nuevamente." << std::endl;
                 break;
         }
-    } while (opcion != 'd');
+    } while (opcion != '0');
 }
 
 #endif // MENU2_HPP
