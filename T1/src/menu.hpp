@@ -4,7 +4,12 @@
 #include <stdlib.h>
 #include <conio.h>
 using namespace std;
+#ifndef MENU_HPP
+#define MENU_HPP
+
 void menu2(){}
+
+
 void menu1(){
 
     int opcion;
@@ -92,3 +97,4 @@ void menu1(){
                 getch();
             }while (opcion!=4);
     }
+#endif // MENU_HPP
