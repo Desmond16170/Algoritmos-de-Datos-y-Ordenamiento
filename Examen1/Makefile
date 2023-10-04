@@ -3,13 +3,13 @@ CXXFLAGS = -std=c++11
 
 .PHONY: all clean
 
-all: build/programaExamen run
+all: build/examen run
 
-build/programaExamen: src/main.cpp
+build/examen: src/main.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $<
 
-run: build/programaExamen
+run: build/examen
 	./$<
 
 clean:
-	rm -f build/programaExamen
+	rm -f build/examen
