@@ -1,4 +1,4 @@
-import sys 
+import sys
 
 # Clase Restaurante
 class Restaurante:
@@ -77,7 +77,7 @@ if __name__ :
     restaurante.describe_restaurante()
 
     respuesta_menu_tematico = input("¿Desea agregar un menú temático? (s/n): ")
-    
+
     while respuesta_menu_tematico.lower() not in ['s', 'n']:
         respuesta_menu_tematico = input("¿Desea agregar un menú temático? (s/n): ")
 
