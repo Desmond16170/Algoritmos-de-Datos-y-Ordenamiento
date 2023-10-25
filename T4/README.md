@@ -28,17 +28,15 @@ El programa consta de las siguientes funcionalidades:
 
 - Python 3
 
-## Paso para clonar el repositorio
-Para clonar el respositorio y la rama especifica, abra una terminal y navegue al directorio donde desea guardar el repositorio ejecute el siguiente comando:
+### Paso para clonar el repositorio y ejecutar el pograma:
+
 
 ```bash
+
 git clone https://github.com/Desmond16170/ie0217.git --branch feature/feature-T4 --single-branch
 
+cd ./T4
 
-## Ejecución
-
-Para ejecutar el programa, abra una terminal y navegue al directorio donde se encuentra el archivo Python y ejecute el siguiente comando:
-
-```bash
 python gestion.py
+
 
