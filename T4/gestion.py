@@ -1,5 +1,3 @@
-import sys
-
 # Clase Restaurante
 class Restaurante:
     def __init__(self, nombre, tipo_cocina):
@@ -59,11 +57,11 @@ def validar_entrada(entrada, mensaje_error):
     while not entrada:
         # Validación de entrada vacía
         print(f"[ERROR] {mensaje_error}")
-        entrada = input("Intentelo de nuevo: ")
+        entrada = input("Inténtelo de nuevo: ")
     return entrada
 
 # Programa principal
-if __name__ :
+if __name__ == "__main__":
     print("Bienvenido al sistema de gestión de bares")
 
     nombre_restaurante = input("Por favor, ingrese el nombre del restaurante: ")
