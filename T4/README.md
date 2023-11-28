@@ -28,7 +28,17 @@ El programa consta de las siguientes funcionalidades:
 
 - Python 3
 
-### Paso para clonar el repositorio y ejecutar el pograma:
+### Pasos para clonar el repositorio y ejecutar el programa en linux:
+```bash
+git clone https://github.com/Desmond16170/ie0217.git --branch feature/feature-T4 --single-branch
+
+cd ./T4
+
+python gestion.py
+
+```
+
+### Paso para clonar el repositorio y ejecutar el pograma en windows:
 
 
 ```bash
@@ -38,5 +48,5 @@ git clone https://github.com/Desmond16170/ie0217.git --branch feature/feature-T4
 cd ./T4
 
 python gestion.py
-
+```
 
