@@ -1,11 +1,4 @@
 # Análisis de Tráfico y Predicción de Vehículos
-## Instrucciones de Uso
-## Funcionalidad
-## Requisitos
-### Pasos para clonar el repositorio y ejecutar el programa en linux
-# Informe del Proyecto de Análisis de Tráfico
-
-# Análisis de Tráfico y Predicción de Vehículos
 
 Este repositorio contiene un programa en Python diseñado para realizar un análisis de tráfico, incluyendo técnicas de clustering y regresión lineal. El análisis se basa en datos de tráfico contenidos en un archivo CSV.
 
