@@ -3,7 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-import seaborn as sns
+import sns
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
@@ -42,9 +42,10 @@ plt.ylabel('Inertia')
 plt.show()
 
 # Aplicar KMeans con el número óptimo de clusters
-num_clusters = 3 
+num_clusters = 3
 kmeans = KMeans(n_clusters=num_clusters, random_state=42)
-df['cluster'] = kmeans.fit_predict(df[['year', 'month', 'day', 'hour', 'Vehicles']])
+df['cluster'] = kmeans.fit_predict(df[
+    ['year', 'month', 'day', 'hour', 'Vehicles']])
 
 # Visualización de clusters mediante scatterplot
 sns.scatterplot(x='hour', y='Vehicles', hue='cluster', data=df)
@@ -53,7 +54,8 @@ plt.show()
 # Dividir datos en conjunto de entrenamiento y prueba para regresión lineal
 X = df[['year', 'month', 'day', 'hour']]
 y = df['Vehicles']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42)
 
 # Crear y entrenar un modelo de regresión lineal
 modelo = LinearRegression()

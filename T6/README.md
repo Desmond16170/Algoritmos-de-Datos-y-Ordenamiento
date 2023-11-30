@@ -1,4 +1,11 @@
 # Análisis de Tráfico y Predicción de Vehículos
+## Instrucciones de Uso
+## Funcionalidad
+## Requisitos
+### Pasos para clonar el repositorio y ejecutar el programa en linux
+# Informe del Proyecto de Análisis de Tráfico
+
+# Análisis de Tráfico y Predicción de Vehículos
 
 Este repositorio contiene un programa en Python diseñado para realizar un análisis de tráfico, incluyendo técnicas de clustering y regresión lineal. El análisis se basa en datos de tráfico contenidos en un archivo CSV.
 
@@ -56,3 +63,20 @@ cd ./T6
 python datos.py
 ```
 
+# Informe del Proyecto de Análisis de Tráfico
+Este proyecto se centra en analizar y predecir patrones de tráfico utilizando técnicas de clustering y regresión. A continuación, se presentan los aspectos clave de nuestra investigación.
+
+## Datos Post-Limpieza
+Iniciamos con un conjunto de datos que contiene información sobre el tráfico, incluyendo la fecha y hora, la cantidad de vehículos en un punto de control de tráfico y otras variables relacionadas. Después de la limpieza de datos, eliminamos columnas innecesarias y manejamos los valores nulos, dejando las siguientes características para nuestro análisis: año, mes, día, hora y el número de vehículos.
+
+## Graficas Iniciales 
+Para comprender mejor nuestros datos, creamos un pairplot que nos permitió visualizar las relaciones entre las variables. Esta gráfica nos proporcionó una visión general de la estructura y la distribución de los datos.
+
+## Clustering
+Aplicamos el algoritmo de K-means para segmentar nuestros datos y determinar patrones de tráfico. Utilizamos el método del codo para encontrar el número óptimo de clusters y visualizamos los clusters resultantes en un gráfico de dispersión. Esto nos ayudó a identificar grupos de datos con comportamientos de tráfico similares.
+
+## Regresiones 
+Luego, realizamos análisis de regresión para predecir el número de vehículos en función del año, mes, día y hora. Utilizamos una regresión lineal para modelar esta relación y calculamos el coeficiente de determinación (R²) para evaluar la calidad del ajuste del modelo.
+
+## Análisis Final
+La investigación se centró en utilizar técnicas de clustering para identificar patrones de tráfico y regresiones para predecir futuros valores de tráfico. Esto tiene sentido en situaciones del mundo real, ya que permite a las autoridades de tráfico y planificadores de transporte tomar decisiones informadas sobre la gestión del tráfico y la planificación de carreteras. Además, estos enfoques pueden ser útiles para pronosticar la demanda de tráfico en áreas urbanas y tomar medidas proactivas para evitar la congestión del tráfico.
