@@ -38,7 +38,7 @@ El programa consta de las siguientes funcionalidades:
 ```bash
 git clone https://github.com/Desmond16170/ie0217.git --branch feature/feature-T6 --single-branch
 
-cd ./T6
+cd ./ie0217/T6
 
 python datos.py
 
@@ -51,7 +51,7 @@ python datos.py
 
 git clone https://github.com/Desmond16170/ie0217.git --branch feature/feature-T6 --single-branch
 
-cd ./T6
+cd ./ie0217/T6
 
 python datos.py
 ```
