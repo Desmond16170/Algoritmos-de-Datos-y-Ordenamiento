@@ -135,7 +135,15 @@ git clone https://github.com/Desmond16170/ie0217.git --branch Examen2 --single-b
 
 cd ./ie0217/"Examen Final"
 
-python datos.py
+python examen.py
+python pregunta1.py
+python pregunta2.py
+python pregunta3.py
+python pregunta4.py
+python pregunta5.py
+python pregunta6.py
+python pregunta7.py
+python pregunta8.py
 
 ```
 ### Paso para clonar el repositorio y ejecutar el pograma en windows:
@@ -146,5 +154,13 @@ git clone https://github.com/Desmond16170/ie0217.git --branch Examen2 --single-b
 
 cd ./ie0217/"Examen Final"
 
-python datos.py
+python examen.py
+python pregunta1.py
+python pregunta2.py
+python pregunta3.py
+python pregunta4.py
+python pregunta5.py
+python pregunta6.py
+python pregunta7.py
+python pregunta8.py
 ```
