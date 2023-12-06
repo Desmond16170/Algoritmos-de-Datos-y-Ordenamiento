@@ -3,7 +3,8 @@
 
 ## 1. Explique el concepto de herencia en programación orientada a objetos (POO) y proporcione un ejemplo específico relacionado con el conjunto de datos bajo estudio
 
-Es un concepto que permite la cracion de nuevas clases basadas en clases ya existentes, creando subclases o clases hijas, teniendo como bases una clase base o clases padre. Esto funciona para crear modularidad de codigo y poder reutilizar codigo ya digitado anteriormente para tener una organizacion y optimizacion de recurso al momento de prograr grandes proyectos. En este caso las subclases o clases hijas heredan atributos de las clases hijas, peor estas pueden agregar nuevo atributos, metodos o modificar los existentes. 
+Es un concepto que permite la cracion de nuevas clases basadas en clases ya existentes, creando subclases o clases hijas, teniendo como bases una clase base o clases padre. Esto funciona para crear modularidad de codigo y poder reutilizar codigo ya digitado anteriormente para tener una organizacion y optimizacion de recurso al momento de programar grandes proyectos. En este caso las subclases o clases hijas heredan atributos de las clases padres, y estas pueden agregar nuevo atributos, metodos o modificar los existentes. 
+
 ### Ejemplo de clase 
 Ejemplo de codigo  se implementó en el archivo [pregunta1.py](pregunta1.py).
 
