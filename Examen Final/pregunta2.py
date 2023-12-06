@@ -12,27 +12,27 @@ class Estudiante(Persona):
         # Llamada al constructor de la superclase (Persona)
         super().__init__(nombre, edad)
 
-        # Atributos adicionales específicos para Estudiante
+        # Atributos adicionales especificos para Estudiante
         self.altura = altura
         self.peso = peso
         self.mano_dominante = mano_dominante
         self.genero = genero
 
     def imprimir_informacion(self):
-        # Llamada al método de la superclase para imprimir información básica
+        # Llamada al metodo de la superclase para imprimir informacion basica
         super().imprimir_informacion()
 
-        # Imprimir información adicional específica para Estudiante
+        # Imprimir informacion adicional especifica para Estudiante
         print(f"Altura: {self.altura}, Peso: {self.peso}, "
-              f"Mano Dominante: {self.mano_dominante}, Género: {self.genero}")
+              f"Mano Dominante: {self.mano_dominante}, Genero: {self.genero}")
 
 
 # Ejemplo de uso:
-persona = Persona("Juan", 25)
-estudiante = Estudiante("Ana", 22, 165, 60, "Diestro", "Femenino")
+persona = Persona("Luis", 24)
+estudiante = Estudiante("Rebeca", 25, 165, 60, "Zurdo", "Femenino")
 
-# Imprimir información de la Persona
+# Imprimir informacion de la Persona
 persona.imprimir_informacion()
 
-# Imprimir información del Estudiante
+# Imprimir informacion del Estudiante
 estudiante.imprimir_informacion()
