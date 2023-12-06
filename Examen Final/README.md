@@ -125,7 +125,7 @@ Ejemplo de codigo completo se implementó en el archivo [pregunta8.py](pregunta8
 
 # Requisitos
 
-- Python 3
+- Python 3.6
 - Bibliotecas: pandas, matplotlib, seaborn, scikit-learn
 
 ### Pasos para clonar el repositorio y ejecutar el programa en linux:
