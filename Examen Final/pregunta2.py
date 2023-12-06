@@ -28,7 +28,7 @@ class Estudiante(Persona):
 
 
 # Ejemplo de uso:
-persona = Persona("Luis", 24)
+persona = Persona("Rebeca", 24)
 estudiante = Estudiante("Rebeca", 25, 165, 60, "Zurdo", "Femenino")
 
 # Imprimir informacion de la Persona
