@@ -30,8 +30,8 @@ persona_masculina = PersonaMasculina(30, 175, 70, 'Diestro')
 persona_femenina = PersonaFemenina(25, 160, 55, 'Zurdo')
 
 
-print(persona_masculina.genero)  # Salida: 'Masculino'
-print(persona_femenina.genero)    # Salida: 'Femenino'
+print(persona_masculina.genero)
+print(persona_femenina.genero)
 
 
 persona_masculina.realizar_accion_masculina()
